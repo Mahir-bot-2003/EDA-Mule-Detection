@@ -35,8 +35,8 @@ learning-based fraud detection systems.
     ├── customer_account_linkage.csv
     ├── transactions_*.csv
     ├── test_labels.csv
-    ├── notebooks/
-    ├── outputs/
+    ├── notebooks
+    ├── outputs
     └── README.md
 
 ------------------------------------------------------------------------
@@ -58,10 +58,10 @@ Maps customers to their respective accounts.
 
 ### 4️⃣ Transactions Dataset
 
-Includes: - Transaction ID\
-- Sender & Receiver Account\
-- Amount\
-- Timestamp\
+Includes: - Transaction ID
+- Sender & Receiver Account
+- Amount
+- Timestamp
 - Transaction Type
 
 ### 5️⃣ Test Labels
@@ -74,71 +74,71 @@ Used for validating mule detection predictions.
 
 ### ✔ Data Cleaning
 
--   Handling missing values\
--   Removing duplicates\
+-   Handling missing values
+-   Removing duplicates
 -   Data type corrections
 
 ### ✔ Univariate Analysis
 
--   Transaction amount distribution\
--   Account activity frequency\
+-   Transaction amount distribution
+-   Account activity frequency
 -   Customer behavior trends
 
 ### ✔ Bivariate & Multivariate Analysis
 
--   Transaction count per account\
--   High-value transfers\
+-   Transaction count per account
+-   High-value transfers
 -   Account-to-account money flow
 
 ### ✔ Time-Based Analysis
 
--   Transaction spikes\
--   Sudden activity detection\
+-   Transaction spikes
+-   Sudden activity detection
 -   Dormant-to-active transitions
 
 ### ✔ Network Analysis
 
--   High-degree node detection\
--   Circular money flow identification\
+-   High-degree node detection
+-   Circular money flow identification
 -   Suspicious transaction chains
 
 ------------------------------------------------------------------------
 
 ## 🛠️ Tech Stack
 
--   Python\
--   Pandas\
--   NumPy\
--   Matplotlib\
--   Seaborn\
--   Scikit-learn\
+-   Python
+-   Pandas
+-   NumPy
+-   Matplotlib
+-   Seaborn
+-   Scikit-learn
 -   Jupyter Notebook
 
 ------------------------------------------------------------------------
 
 ## 📈 Key Insights
 
--   Sudden spikes in transaction volume indicate high risk.\
--   Newly opened accounts with large transfers are suspicious.\
--   Circular transactions often signal mule networks.\
+-   Sudden spikes in transaction volume indicate high risk.
+-   Newly opened accounts with large transfers are suspicious.
+-   Circular transactions often signal mule networks.
 -   Accounts linked to multiple customers require investigation.
 
 ------------------------------------------------------------------------
 
 ## 🚀 Future Improvements
 
--   Graph-based fraud detection models\
--   Machine learning models (XGBoost, Random Forest, Neural Networks)\
--   Fraud risk scoring system\
+-   Graph-based fraud detection models
+-   Machine learning models (XGBoost, Random Forest, Neural Networks)
+-   Fraud risk scoring system
 -   Real-time fraud monitoring pipeline
 
 ------------------------------------------------------------------------
 
 ## 🧠 Use Cases
 
--   Banking fraud detection\
--   Anti-Money Laundering (AML) systems\
--   Financial risk monitoring\
+-   Banking fraud detection
+-   Anti-Money Laundering (AML) systems
+-   Financial risk monitoring
 -   Hackathons and research projects
 
 ------------------------------------------------------------------------
@@ -146,7 +146,7 @@ Used for validating mule detection predictions.
 ## 👨‍💻 Author
 
 **Mahir**\
-Machine Learning Enthusiast \| Data Analyst\
+Machine Learning Enthusiast | Data Analyst
 Focused on Fraud Detection & ML Engineering
 
 ------------------------------------------------------------------------
